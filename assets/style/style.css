@@ -1,0 +1,46 @@
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+}
+
+#SGlogo{
+    width: 10rem;
+    height: auto;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,auto);
+}
+
+#fotonj{
+    width: 98.7vw;
+    grid-column: 1/9;
+    grid-row: 1/9;
+}
+
+#imagenSF{
+    box-shadow:10px 10px 5px #ffe0e6;
+    border: 1px solid #ffe0e6;
+    
+
+}
+
+#imagenMD{
+    position: relative;
+    left:27rem;
+    top:-30rem;
+    box-shadow:10px 10px 5px #ffe0e6;
+    border: 1px solid #ffe0e6;
+}
+
+
+#imagen{
+    box-shadow:10px 10px 5px #ffe0e6;
+    border: 1px solid #ffe0e6;
+}
+#team,footer{
+    background-color: pink;
+}
